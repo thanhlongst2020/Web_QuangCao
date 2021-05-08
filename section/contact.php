@@ -19,6 +19,8 @@
         $_SESSION['name'] = $_GET['name'];
         $_SESSION['email'] = $_GET['email'];
         $_SESSION['question'] = $_GET['question']; 
+
+        //Vì ở đây chưa có cơ sở dữ liệu trên Server nên insert tạm vào MySQL
         insert_question($_SESSION['name'],$_SESSION['email'],$_SESSION['question']);
         phpAlert("Successfully\\n\\nGửi câu hỏi thành công");
         // header('Location: contact.php');

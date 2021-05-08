@@ -10,12 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-            /* body {
-                color: #232323;
-                font-size: 0.95em;    
-                font-family: arial;
-                } */
-
             div#success {
                 text-align: center;
                 box-shadow: 1px 1px 5px #455644;
